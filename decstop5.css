@@ -1,0 +1,106 @@
+
+/* .................................MAIN........................ */
+.section-black-top {
+    background: rgb(46, 46, 46);
+    width: 1196px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .section-black-top2 {
+    background: rgb(210, 181, 116);
+    width: 1196px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 70px;
+  }
+  
+  .section-top h3 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    position: absolute;
+    left: 45%;
+    font-weight: 300;
+    bottom: 3px;
+  }
+  
+  .section-top2 h3 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    position: absolute;
+    left: 48%;
+    font-weight: 300;
+    bottom: 3px;
+  }
+  .black-trigolnic{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: #FFF transparent transparent transparent;
+    transform: rotate(0deg);
+    position: relative;
+    left: 1150px;
+    top: 12px;
+  }
+  
+  .black-trigolnic2 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: #FFF transparent transparent transparent;
+    transform: rotate(0deg);
+    position: relative;
+    left: 25px;
+    top: 7px;
+  }
+  
+  .images-popular {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+  }
+  
+  .images-popular p {
+    margin: 0;
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .section-images-colors {
+    position: relative;
+    top: 120px;
+  }
+  
+  .images-colors {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  
+  .images-colors p {
+    position: relative;
+    left: 10px;
+  }
+  .see-more {
+    margin-left: 11%;
+    color: rgb(210, 181, 116);
+  }
+  /* .............................................................................. */

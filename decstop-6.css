@@ -1,0 +1,386 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Baskerville;
+    margin: 0;
+}
+
+.MY-CART {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ---------...................---header--------------...................---- */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 184px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.icons {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.main-header {
+    width: 970px;
+    margin: 30px auto;
+}
+
+.main-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.main-header ul li a {
+    color: rgb(46, 46, 46);
+    font-family: Baskerville;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;    
+    text-decoration: none;                                           
+}
+
+.main-header ul li a:hover {
+    color: rgb(210, 181, 116);
+}
+.main-header ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgb(210, 181, 116, 0.3);
+}
+
+/* ----------main----------- */
+
+.button-Back button{
+    width: 157px;
+    height: 32px;
+    font-size: 20px;
+    font-weight: 100;
+    border: 2px solid black;
+    color: black;
+}
+
+.button-Back>button:hover {
+    background-color: rgb(210, 181, 116);
+    transition: 1s;
+}
+
+.my-cart {
+    position: relative;
+    bottom: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.my-cart h1 {
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: rgb(210, 181, 116);
+}
+
+.section-top-one {
+    position: relative;
+    bottom: 70px;
+}
+
+.background-section-one {
+    background-color:  rgb(210, 181, 116);
+    width: 1210px;
+    height: 150px;
+}
+
+.background-texts {
+    top: 45px;
+    position: relative;
+    text-align: center;
+}
+
+.background-texts p {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    bottom: 10px;
+}
+
+.background-texts h1 {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    bottom: 20px;
+}
+
+.section-selected-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articl-1 button, .btn-article{
+    position: relative;
+    right: 50%;
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 32px;
+    font-size: 19px;
+    font-weight: 300;
+    border: none;
+}
+
+/* .articl-1-img {
+
+} */
+
+.articl-1-text {
+    position: relative;
+    right: 30%;
+    width: 200px;
+    bottom: 10px;
+}
+
+.articl-1-text12 {
+    position: relative;
+    right: 170px;
+}
+
+.articl-1-text-2 {
+    position: relative;
+    right: 30%;
+    width: 200px;
+    bottom: 10px;
+}
+
+.article-texts h4 {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.article-texts p {
+    position: relative;
+    bottom: 20px;
+    font-family: Roboto;
+}
+
+.articl-1-texts2 h4 {
+    position: relative;
+    bottom: 40px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.articl-1-texts2  p {
+    position: relative;
+    bottom: 60px;
+    width: 300px;
+    font-family: Roboto;
+}
+
+.name-article p{
+    position: relative;
+    bottom: 43px; 
+    height: 0;   
+    font-size: 18px;
+    font-family: Roboto;
+    color: rgb(210, 181, 116);
+}
+
+.name-article p {
+    width: 100px;
+
+}
+
+.name-article img{
+    width: 20px;
+    height: 24px;
+}
+
+.name-article-p2  {
+    position: relative;
+    top: -2.0em;
+}
+
+.articl-1, .name-flex{
+    display: flex;
+    position: relative;
+    bottom: 30px;
+}
+
+.articl-1-2 {
+    left: 30px;
+    display: flex;
+    position: relative;
+    bottom: 30px;
+}
+
+.name-article2 {
+    position: relative;
+    bottom: 100px;
+    left: 90px;
+}
+
+.name-article2 img {
+    width: 20px;
+    height: 24px;
+}
+
+#name-id-img {
+    position: relative;
+    top: 38px;
+    right: 20px;
+}
+
+#name-id-img-2 {
+    position: relative;
+    bottom: 25px;
+    left: 70px;
+}
+
+.articl-img2-text p {
+    position: relative;
+    bottom: 1px;
+}
+
+.articl-img2-text {
+    position: relative;
+    top: 30px;
+}
+
+.name-article2 p{
+    height: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    color: rgb(210, 181, 116);
+}
+
+#p-img-art {
+    position: relative;
+    left: 94px;
+    bottom: 25px;
+}
+
+#EURO {
+    margin-top: 6px;
+}
+
+#p-54 {
+    margin-top: -19px;
+}
+
+.section-order-now h1 {
+    text-align: center;
+    color: rgb(210, 181, 116);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.hr {
+    color: black;
+    width: 1200px;
+}
+
+.background-black {
+    background-color: rgb(46, 46, 46);
+    width: 480px;
+    height: 48px;
+    position: relative;
+    left: 50px;
+}
+
+.background-black2 {
+    background-color: rgb(46, 46, 46);
+    width: 480px;
+    height: 48px;
+    position: relative;
+    left: 180px;
+}
+
+.images-order {
+    position: relative;
+    right: 770px;
+    display: flex;
+    width: 300px;
+    padding-top: 8px;
+    justify-content: space-between;
+}
+
+.images-order img {
+    width: 35px;
+    height: 30px;
+}
+
+.Visa-p {
+    position: relative;
+    bottom: 8px;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.PayPal-png {
+    position: relative;
+    left: 160%;
+}
+
+.PayPal-png p {
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    font-size: 20px;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+
+.background-black-footer {
+    background-color: rgb(46, 46, 46);
+    width: 1445px;
+    height: 300px;
+    position: relative;
+    right: 122px;
+    display: flex;
+}
+
+.footer-texts {
+    display: flex;
+    width: 1000px;
+    padding-left: 200px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.footer-texts p {
+    color: rgb(210, 181, 116);
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 25px;
+}

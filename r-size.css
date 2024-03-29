@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Baskerville;
+    margin: 0;
+}
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 184px;
+
+}
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+}
+.icons {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    display: flex;
+    gap: 30px;
+}
+.main-header {
+    width: 970px;
+    margin: 30px auto;
+}
+.main-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.main-header ul li a{
+    color: rgb(46, 46, 46);
+font-family: Baskerville;
+font-size: 20px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0%;
+text-decoration: none;
+}
+.main-header li:hover {
+    box-shadow: 5px 5px 5px rgb(210, 181, 116, 0.1);
+    transform: scale(1.05);
+}
+
+.main-header ul li a:hover {
+    color: rgb(210, 181, 116);
+}
+/* ............main-image ...............................................................................*/
+.image-content {
+    position: relative;
+    width: 100%;
+    height: 495px;
+}
+.image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-text {
+    position: absolute;
+    /* text-align: center; */
+    top: 25%;
+    left: 20%;
+}
+.step4 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.step4 h1 {
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 64px;
+    font-weight: 300;
+}
+.inique-h5 {
+    width: 235px;
+    margin-left: 25%;
+}
+.content-text h1 {
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 64px;
+    font-weight: 300;
+}
+.content-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-btn button {
+    background: rgb(46, 46, 46);
+    width: 212px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.image-content h5 {
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120.5%;
+    letter-spacing: 0%;
+    margin-top: -40px;
+}
+/* ............................................................... */
+
+.blocki h1{
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;  
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.blocki p{
+    color: rgb(46, 46, 46);
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: 400;
+    /* text-align: center; */
+    width: 575px;
+}
+
+.imgSection2{
+    width: 441px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block{
+   margin-left: 30px;
+    background: rgb(46, 46, 46);
+}
+
+.name h1{
+color: rgb(210, 181, 116);
+font-family: Baskerville;
+font-size: 36px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.text-block {
+    width: 1440px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-block p{
+    color: rgb(0, 0, 0);
+    font-family: Baskerville;
+    font-size: 24px;
+    letter-spacing: 0%;
+    width: 314px;
+    text-align: center;
+    display: flex;
+}
+
+ h1{
+ color: rgb(210, 181, 116);
+font-family: Baskerville;
+font-size: 48px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+/* 147 код html---  --- WE ARE HERE FOR YOU! ---  --- */
+.main-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    margin-top: 25px;
+}
+.we-are_h1 h1 {
+    margin: 6px 0;
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.we-are_h1 p {
+    color: rgb(0, 0, 0);
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+/* 155 код html ---  ---  CATEGORI-IMAGES CONTAINER  ---  --- */
+.categori-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 15px;
+}
+.block3 {
+    grid-row: span 1;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.imgOne {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 392px;
+    height: 219px;
+    z-index: 99;
+    visibility: hidden;
+}
+.block3:hover .imgOne{
+    visibility: visible;
+}
+.imgTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 300px;
+}
+.table {
+    text-align: center;
+}
+.imgTwo h1, p {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: Baskerville;
+}
+.imgTwo h1 {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.imgTwo p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.block1:hover img, .block3:hover img, .block33:hover img {
+    opacity: 0.3;
+}
+
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.photo>img{
+    width: 1440px;
+}
+/* .................................FOOTER................... */
+
+footer {
+    width: 100%;
+    height: 286px;
+    background: rgb(46, 46, 46);
+    margin-top: 200px;
+}
+.footer-container {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-container h1 {
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 700;
+}
+.title-container {
+    margin-top: 50px;
+}
+.container-icons {
+    margin-left: 5px;
+    width: 126px;
+    height: 76.05px;
+}
+.second-icon {
+    margin-top: 16%;
+}
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+.footer-texts {
+    margin-top: 50px;
+    right: 50%;
+    left: 50%;
+    top: 110px;
+    font-family: Baskerville;
+    font-size: 12.78px;
+    font-weight: 300;
+}
+.footer-texts p {
+    color: rgb(196, 196, 196);
+
+}
+.footer-contact {
+    margin-top: 50px;
+
+}
+.footer-inputs input {
+    margin: 10px 20px 30px 20px;
+    width: 183px;
+    height: 28px;
+    box-sizing: border-box;
+    background-color: rgb(46, 46, 46);
+    border:1px solid rgb(125, 125, 125);
+}
+.footer-contact button {
+    width: 183px;
+    height: 28px;
+    background: rgb(210, 181, 116);
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+} 
+
